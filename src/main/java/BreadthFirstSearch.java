@@ -3,7 +3,6 @@ import lombok.Data;
 import java.util.LinkedList;
 import java.util.Queue;
 
-@Data
 public class BreadthFirstSearch<T> {
 
     private final Vertex<T> startVertex;
